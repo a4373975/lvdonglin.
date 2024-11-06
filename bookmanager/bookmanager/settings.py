@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'book', # 方案1
-    'book.apps.BookConfig',  # 方案2，就是加载book.apps.py中的 BookConfig 类
+    # 'book.apps.BookConfig',  # 方案2，就是加载book.apps.py中的 BookConfig 类
+    # 理论上要注册子应用，现在不注册，一会有问题
 ]
 
 MIDDLEWARE = [
